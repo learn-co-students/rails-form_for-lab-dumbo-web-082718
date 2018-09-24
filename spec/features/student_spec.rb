@@ -18,6 +18,8 @@ describe 'form page' do
     expect(page).to have_content("Lindsey")
   end
 
+
+
   it 'submitted edit form submits content and renders form content' do
     @edit_student = Student.create(first_name: "Daenerys", last_name: "Targaryen")
 
