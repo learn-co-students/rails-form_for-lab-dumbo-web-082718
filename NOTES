@@ -1,0 +1,7 @@
+Model
+  - SchoolClass
+
+
+
+rails generate model school_class
+rails generate migration CreateSchoolClasses title:string room_number:integer
