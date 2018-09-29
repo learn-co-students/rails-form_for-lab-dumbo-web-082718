@@ -1,0 +1,8 @@
+<div>
+<%=form_for @schoolclass do |s| %>
+<%= s.label 'Title:' %>
+<%= s.text_field :title, :id => 'title' %><br>
+<%= s.label 'Room Number:'%>
+<%= s.text_field :room_number, :id => 'room_number' %><br>
+<%=s.submit 'Submit SchoolClass'  %>
+<%end%> </div>
